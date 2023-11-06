@@ -8,3 +8,13 @@ D:\KittyCrush\KittyCrush\bin\Debug\KittyCrush.exe
 D:\KittyCrush\KittyCrush\bin\Debug\KittyCrush.pdb
 D:\KittyCrush\KittyCrush\obj\Debug\KittyCrush.exe
 D:\KittyCrush\KittyCrush\obj\Debug\KittyCrush.pdb
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\obj\Debug\KittyCrush.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\obj\Debug\KittyCrush.Form1.resources
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\obj\Debug\KittyCrush.Properties.Resources.resources
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\obj\Debug\KittyCrush.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\obj\Debug\KittyCrush.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\obj\Debug\KittyCrush.exe
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\obj\Debug\KittyCrush.pdb
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\bin\Debug\KittyCrush.exe.config
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\bin\Debug\KittyCrush.exe
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\bin\Debug\KittyCrush.pdb
