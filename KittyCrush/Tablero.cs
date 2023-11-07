@@ -161,14 +161,28 @@ namespace KittyCrush
             {
                 agregarPuntos(-5);
             }
+            cascada();
             contador = 0;
-            MessageBox.Show(puntos.ToString());
             inizializarBools();
+        }
+
+        public void cascada()
+        {
+            for(int i = 0; i < valores.GetLength(0); i++)
+            {
+                for(int j = 0; j < valores.GetLength(1); j++)
+                {
+
+                }
+            }
+            Form1 form = new Form1();
+            form.ponerImagen();
         }
 
         public void agregarPuntos(int pum)
         {
             puntos += pum;
+            MessageBox.Show(puntos.ToString());
         }
 
         public void posicion(int fila, int columna)

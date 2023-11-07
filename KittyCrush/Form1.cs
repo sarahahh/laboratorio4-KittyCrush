@@ -7,15 +7,110 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace KittyCrush
 {
     public partial class Form1 : Form
     {
-        Tablero tablero = new Tablero(8, 8, 6);
+        Tablero tablero;
         public Form1()
         {
             InitializeComponent();
+            tablero = new Tablero(8, 8, 6);
+            ponerImagen();
+        }
+
+        private Image seleccionarImagen(int recurso)
+        {
+            switch (recurso)
+            {
+                case 0:
+                    return global::KittyCrush.Properties.Resources.cina;
+                case 1:
+                    return global::KittyCrush.Properties.Resources.kuromi;
+                case 2:
+                    return global::KittyCrush.Properties.Resources.lukas;
+                case 3:
+                    return global::KittyCrush.Properties.Resources.melody;
+                case 4:
+                    return global::KittyCrush.Properties.Resources.pom;
+                default:
+                    return global::KittyCrush.Properties.Resources.sapo;
+            }
+        }
+
+        private void botonValidar_Click(object sender, EventArgs e)
+        {
+            tablero.comprobarVertical();
+        }
+
+        public void ponerImagen()
+        {
+            boton00.BackgroundImage = seleccionarImagen(tablero.valores[0, 0]);
+            boton01.BackgroundImage = seleccionarImagen(tablero.valores[0, 1]);
+            boton02.BackgroundImage = seleccionarImagen(tablero.valores[0, 2]);
+            boton03.BackgroundImage = seleccionarImagen(tablero.valores[0, 3]);
+            boton04.BackgroundImage = seleccionarImagen(tablero.valores[0, 4]);
+            boton05.BackgroundImage = seleccionarImagen(tablero.valores[0, 5]);
+            boton06.BackgroundImage = seleccionarImagen(tablero.valores[0, 6]);
+            boton07.BackgroundImage = seleccionarImagen(tablero.valores[0, 7]);
+            boton10.BackgroundImage = seleccionarImagen(tablero.valores[1, 0]);
+            boton11.BackgroundImage = seleccionarImagen(tablero.valores[1, 1]);
+            boton12.BackgroundImage = seleccionarImagen(tablero.valores[1, 2]);
+            boton13.BackgroundImage = seleccionarImagen(tablero.valores[1, 3]);
+            boton14.BackgroundImage = seleccionarImagen(tablero.valores[1, 4]);
+            boton15.BackgroundImage = seleccionarImagen(tablero.valores[1, 5]);
+            boton16.BackgroundImage = seleccionarImagen(tablero.valores[1, 6]);
+            boton17.BackgroundImage = seleccionarImagen(tablero.valores[1, 7]);
+            boton20.BackgroundImage = seleccionarImagen(tablero.valores[2, 0]);
+            boton21.BackgroundImage = seleccionarImagen(tablero.valores[2, 1]);
+            boton22.BackgroundImage = seleccionarImagen(tablero.valores[2, 2]);
+            boton23.BackgroundImage = seleccionarImagen(tablero.valores[2, 3]);
+            boton24.BackgroundImage = seleccionarImagen(tablero.valores[2, 4]);
+            boton25.BackgroundImage = seleccionarImagen(tablero.valores[2, 5]);
+            boton26.BackgroundImage = seleccionarImagen(tablero.valores[2, 6]);
+            boton27.BackgroundImage = seleccionarImagen(tablero.valores[2, 7]);
+            boton30.BackgroundImage = seleccionarImagen(tablero.valores[3, 0]);
+            boton31.BackgroundImage = seleccionarImagen(tablero.valores[3, 1]);
+            boton32.BackgroundImage = seleccionarImagen(tablero.valores[3, 2]);
+            boton33.BackgroundImage = seleccionarImagen(tablero.valores[3, 3]);
+            boton34.BackgroundImage = seleccionarImagen(tablero.valores[3, 4]);
+            boton35.BackgroundImage = seleccionarImagen(tablero.valores[3, 5]);
+            boton36.BackgroundImage = seleccionarImagen(tablero.valores[3, 6]);
+            boton37.BackgroundImage = seleccionarImagen(tablero.valores[3, 7]);
+            boton40.BackgroundImage = seleccionarImagen(tablero.valores[4, 0]);
+            boton41.BackgroundImage = seleccionarImagen(tablero.valores[4, 1]);
+            boton42.BackgroundImage = seleccionarImagen(tablero.valores[4, 2]);
+            boton43.BackgroundImage = seleccionarImagen(tablero.valores[4, 3]);
+            boton44.BackgroundImage = seleccionarImagen(tablero.valores[4, 4]);
+            boton45.BackgroundImage = seleccionarImagen(tablero.valores[4, 5]);
+            boton46.BackgroundImage = seleccionarImagen(tablero.valores[4, 6]);
+            boton47.BackgroundImage = seleccionarImagen(tablero.valores[4, 7]);
+            boton50.BackgroundImage = seleccionarImagen(tablero.valores[5, 0]);
+            boton51.BackgroundImage = seleccionarImagen(tablero.valores[5, 1]);
+            boton52.BackgroundImage = seleccionarImagen(tablero.valores[5, 2]);
+            boton53.BackgroundImage = seleccionarImagen(tablero.valores[5, 3]);
+            boton54.BackgroundImage = seleccionarImagen(tablero.valores[5, 4]);
+            boton55.BackgroundImage = seleccionarImagen(tablero.valores[5, 5]);
+            boton56.BackgroundImage = seleccionarImagen(tablero.valores[5, 6]);
+            boton57.BackgroundImage = seleccionarImagen(tablero.valores[5, 7]);
+            boton60.BackgroundImage = seleccionarImagen(tablero.valores[6, 0]);
+            boton61.BackgroundImage = seleccionarImagen(tablero.valores[6, 1]);
+            boton62.BackgroundImage = seleccionarImagen(tablero.valores[6, 2]);
+            boton63.BackgroundImage = seleccionarImagen(tablero.valores[6, 3]);
+            boton64.BackgroundImage = seleccionarImagen(tablero.valores[6, 4]);
+            boton65.BackgroundImage = seleccionarImagen(tablero.valores[6, 5]);
+            boton66.BackgroundImage = seleccionarImagen(tablero.valores[6, 6]);
+            boton67.BackgroundImage = seleccionarImagen(tablero.valores[6, 7]);
+            boton70.BackgroundImage = seleccionarImagen(tablero.valores[7, 0]);
+            boton71.BackgroundImage = seleccionarImagen(tablero.valores[7, 1]);
+            boton72.BackgroundImage = seleccionarImagen(tablero.valores[7, 2]);
+            boton73.BackgroundImage = seleccionarImagen(tablero.valores[7, 3]);
+            boton74.BackgroundImage = seleccionarImagen(tablero.valores[7, 4]);
+            boton75.BackgroundImage = seleccionarImagen(tablero.valores[7, 5]);
+            boton76.BackgroundImage = seleccionarImagen(tablero.valores[7, 6]);
+            boton77.BackgroundImage = seleccionarImagen(tablero.valores[7, 7]);
         }
 
         //Funciones botones de la matriz y ubicar en posicion de la matriz
