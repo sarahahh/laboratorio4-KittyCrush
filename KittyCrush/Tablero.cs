@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,18 +20,22 @@ namespace KittyCrush
         public int contador { get; set; } = 0;
         public bool valido { get; set; }
         public int puntos { get; set; } = 0;
+        public int cantKittys { get; set; }
 
+        private Form1 form;
 
         //Constructor de la clase tablero 
-        public Tablero(int cantFilas, int cantColumnas, int cantKittys)
+        public Tablero(int cantFilas, int cantColumnas, int cantKittys, Form1 form)
         {
             this.cantFilas = cantFilas;
             this.cantColumnas = cantColumnas;
             this.valores = new int[cantFilas,cantColumnas];
             this.bools = new bool[cantFilas,cantColumnas];
+            this.form = form;
+            this.cantKittys = cantKittys;
             inizializar();
             inizializarBools();
-            iniciarJuego(cantKittys);
+            iniciarJuego();
         }
 
         //Funcion inicializar valores de la matriz
@@ -58,7 +63,7 @@ namespace KittyCrush
         }
 
         //Funcion asignar valores aleatorios a matriz
-        private void iniciarJuego(int cantKittys)
+        private void iniciarJuego()
         {
             Random rand = new Random();
             for (int i = 0; i < valores.GetLength(0); i++)
@@ -67,6 +72,15 @@ namespace KittyCrush
                 {
                     valores[i,j] = rand.Next(cantKittys);
                 }
+            }
+        }
+        public void posicion(int fila, int columna)
+        {
+            contador++;
+            bools[fila, columna] = true;
+            if (contador == 5)
+            {
+                comprobarVertical();
             }
         }
 
@@ -80,19 +94,21 @@ namespace KittyCrush
                     {
                         if (bools[i, j] == true)
                         {
-                            if (bools[i, j + 1] == true)
+                            if(!(j == valores.GetLength(1) - 1))
                             {
-                                bool vertical = false;
-                                comprobar(vertical, i, j);
+                                if (bools[i, j + 1] == true)
+                                {
+                                    bool vertical = false;
+                                    comprobar(vertical, i, j);
+                                }
                             }
-                            else if (bools[i + 1, j] == true)
+                            if(!(i==valores.GetLength(0) - 1))
                             {
-                                bool vertical = true;
-                                comprobar(vertical, i, j);
-                            }
-                            else
-                            {
-                                break;
+                                if (bools[i + 1, j] == true)
+                                {
+                                    bool vertical = true;
+                                    comprobar(vertical, i, j);
+                                }
                             }
                         }
                     }
@@ -101,6 +117,8 @@ namespace KittyCrush
             else
             {
                 agregarPuntos(-5);
+                inizializarBools();
+                contador = 0;
             }
         }
 
@@ -168,32 +186,46 @@ namespace KittyCrush
 
         public void cascada()
         {
-            for(int i = 0; i < valores.GetLength(0); i++)
+            Random rand = new Random();
+            for (int i = 0; i< valores.GetLength(0); i++)
             {
-                for(int j = 0; j < valores.GetLength(1); j++)
+                for(int j = 0; j<valores.GetLength(1); j++)
                 {
-
+                    if (bools[i,j])
+                    {
+                        for(int k = i; k>=0; k--)
+                        {
+                            if (k == 0)
+                            {
+                                valores[k, j] = rand.Next(cantKittys);
+                            }
+                            else
+                            {
+                                valores[k,j] = valores[k-1,j];
+                            }
+                        }
+                        bools[i,j] = false;
+                    }
                 }
             }
-            Form1 form = new Form1();
             form.ponerImagen();
         }
 
         public void agregarPuntos(int pum)
         {
             puntos += pum;
-            MessageBox.Show(puntos.ToString());
+            form.mostrarPuntos();
         }
 
-        public void posicion(int fila, int columna)
+        public void validarJugadas()
         {
-            contador++;
-            bools[fila, columna] = true;
-            if (contador == 5)
+            for(int i = 0;i< valores.GetLength(0); i++)
             {
-                comprobarVertical();
+                for( int j = 0;j< valores.GetLength(1); j++)
+                {
+                    
+                }
             }
         }
-
     }
 }

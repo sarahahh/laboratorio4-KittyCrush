@@ -17,7 +17,7 @@ namespace KittyCrush
         public Form1()
         {
             InitializeComponent();
-            tablero = new Tablero(8, 8, 6);
+            tablero = new Tablero(8, 8, 6, this);
             ponerImagen();
         }
 
@@ -43,6 +43,11 @@ namespace KittyCrush
         private void botonValidar_Click(object sender, EventArgs e)
         {
             tablero.comprobarVertical();
+        }
+
+        public void mostrarPuntos()
+        {
+            puntos.Text = tablero.puntos.ToString();
         }
 
         public void ponerImagen()

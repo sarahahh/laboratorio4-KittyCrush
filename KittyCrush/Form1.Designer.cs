@@ -94,6 +94,12 @@
             this.boton71 = new System.Windows.Forms.Button();
             this.boton70 = new System.Windows.Forms.Button();
             this.botonValidar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.puntos = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // boton00
@@ -102,7 +108,7 @@
             this.boton00.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton00.FlatAppearance.BorderSize = 0;
             this.boton00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton00.Location = new System.Drawing.Point(213, 79);
+            this.boton00.Location = new System.Drawing.Point(261, 81);
             this.boton00.Name = "boton00";
             this.boton00.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.boton00.Size = new System.Drawing.Size(44, 44);
@@ -117,7 +123,7 @@
             this.boton05.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton05.FlatAppearance.BorderSize = 0;
             this.boton05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton05.Location = new System.Drawing.Point(463, 79);
+            this.boton05.Location = new System.Drawing.Point(511, 81);
             this.boton05.Name = "boton05";
             this.boton05.Size = new System.Drawing.Size(44, 44);
             this.boton05.TabIndex = 1;
@@ -130,7 +136,7 @@
             this.boton04.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton04.FlatAppearance.BorderSize = 0;
             this.boton04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton04.Location = new System.Drawing.Point(413, 79);
+            this.boton04.Location = new System.Drawing.Point(461, 81);
             this.boton04.Name = "boton04";
             this.boton04.Size = new System.Drawing.Size(44, 44);
             this.boton04.TabIndex = 2;
@@ -143,7 +149,7 @@
             this.boton03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton03.FlatAppearance.BorderSize = 0;
             this.boton03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton03.Location = new System.Drawing.Point(363, 79);
+            this.boton03.Location = new System.Drawing.Point(411, 81);
             this.boton03.Name = "boton03";
             this.boton03.Size = new System.Drawing.Size(44, 44);
             this.boton03.TabIndex = 3;
@@ -156,7 +162,7 @@
             this.boton01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton01.FlatAppearance.BorderSize = 0;
             this.boton01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton01.Location = new System.Drawing.Point(263, 79);
+            this.boton01.Location = new System.Drawing.Point(311, 81);
             this.boton01.Name = "boton01";
             this.boton01.Size = new System.Drawing.Size(44, 44);
             this.boton01.TabIndex = 5;
@@ -169,7 +175,7 @@
             this.boton06.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton06.FlatAppearance.BorderSize = 0;
             this.boton06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton06.Location = new System.Drawing.Point(513, 79);
+            this.boton06.Location = new System.Drawing.Point(561, 81);
             this.boton06.Name = "boton06";
             this.boton06.Size = new System.Drawing.Size(44, 44);
             this.boton06.TabIndex = 6;
@@ -182,7 +188,7 @@
             this.boton07.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton07.FlatAppearance.BorderSize = 0;
             this.boton07.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton07.Location = new System.Drawing.Point(563, 79);
+            this.boton07.Location = new System.Drawing.Point(611, 81);
             this.boton07.Name = "boton07";
             this.boton07.Size = new System.Drawing.Size(44, 44);
             this.boton07.TabIndex = 7;
@@ -195,7 +201,7 @@
             this.boton02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton02.FlatAppearance.BorderSize = 0;
             this.boton02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton02.Location = new System.Drawing.Point(313, 79);
+            this.boton02.Location = new System.Drawing.Point(361, 81);
             this.boton02.Name = "boton02";
             this.boton02.Size = new System.Drawing.Size(44, 44);
             this.boton02.TabIndex = 5;
@@ -208,7 +214,7 @@
             this.boton17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton17.FlatAppearance.BorderSize = 0;
             this.boton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton17.Location = new System.Drawing.Point(563, 129);
+            this.boton17.Location = new System.Drawing.Point(611, 131);
             this.boton17.Name = "boton17";
             this.boton17.Size = new System.Drawing.Size(44, 44);
             this.boton17.TabIndex = 15;
@@ -221,7 +227,7 @@
             this.boton16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton16.FlatAppearance.BorderSize = 0;
             this.boton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton16.Location = new System.Drawing.Point(513, 129);
+            this.boton16.Location = new System.Drawing.Point(561, 131);
             this.boton16.Name = "boton16";
             this.boton16.Size = new System.Drawing.Size(44, 44);
             this.boton16.TabIndex = 14;
@@ -234,7 +240,7 @@
             this.boton12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton12.FlatAppearance.BorderSize = 0;
             this.boton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton12.Location = new System.Drawing.Point(313, 129);
+            this.boton12.Location = new System.Drawing.Point(361, 131);
             this.boton12.Name = "boton12";
             this.boton12.Size = new System.Drawing.Size(44, 44);
             this.boton12.TabIndex = 13;
@@ -247,7 +253,7 @@
             this.boton13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton13.FlatAppearance.BorderSize = 0;
             this.boton13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton13.Location = new System.Drawing.Point(363, 129);
+            this.boton13.Location = new System.Drawing.Point(411, 131);
             this.boton13.Name = "boton13";
             this.boton13.Size = new System.Drawing.Size(44, 44);
             this.boton13.TabIndex = 12;
@@ -260,7 +266,7 @@
             this.boton14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton14.FlatAppearance.BorderSize = 0;
             this.boton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton14.Location = new System.Drawing.Point(413, 129);
+            this.boton14.Location = new System.Drawing.Point(461, 131);
             this.boton14.Name = "boton14";
             this.boton14.Size = new System.Drawing.Size(43, 44);
             this.boton14.TabIndex = 11;
@@ -273,7 +279,7 @@
             this.boton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton15.FlatAppearance.BorderSize = 0;
             this.boton15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton15.Location = new System.Drawing.Point(462, 129);
+            this.boton15.Location = new System.Drawing.Point(510, 131);
             this.boton15.Name = "boton15";
             this.boton15.Size = new System.Drawing.Size(45, 44);
             this.boton15.TabIndex = 10;
@@ -286,7 +292,7 @@
             this.boton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton11.FlatAppearance.BorderSize = 0;
             this.boton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton11.Location = new System.Drawing.Point(263, 129);
+            this.boton11.Location = new System.Drawing.Point(311, 131);
             this.boton11.Name = "boton11";
             this.boton11.Size = new System.Drawing.Size(44, 44);
             this.boton11.TabIndex = 8;
@@ -299,7 +305,7 @@
             this.boton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton10.FlatAppearance.BorderSize = 0;
             this.boton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton10.Location = new System.Drawing.Point(213, 129);
+            this.boton10.Location = new System.Drawing.Point(261, 131);
             this.boton10.Name = "boton10";
             this.boton10.Size = new System.Drawing.Size(44, 44);
             this.boton10.TabIndex = 9;
@@ -312,7 +318,7 @@
             this.boton27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton27.FlatAppearance.BorderSize = 0;
             this.boton27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton27.Location = new System.Drawing.Point(563, 179);
+            this.boton27.Location = new System.Drawing.Point(611, 181);
             this.boton27.Name = "boton27";
             this.boton27.Size = new System.Drawing.Size(44, 44);
             this.boton27.TabIndex = 23;
@@ -325,7 +331,7 @@
             this.boton26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton26.FlatAppearance.BorderSize = 0;
             this.boton26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton26.Location = new System.Drawing.Point(513, 179);
+            this.boton26.Location = new System.Drawing.Point(561, 181);
             this.boton26.Name = "boton26";
             this.boton26.Size = new System.Drawing.Size(44, 44);
             this.boton26.TabIndex = 22;
@@ -338,7 +344,7 @@
             this.boton22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton22.FlatAppearance.BorderSize = 0;
             this.boton22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton22.Location = new System.Drawing.Point(313, 179);
+            this.boton22.Location = new System.Drawing.Point(361, 181);
             this.boton22.Name = "boton22";
             this.boton22.Size = new System.Drawing.Size(44, 44);
             this.boton22.TabIndex = 21;
@@ -351,7 +357,7 @@
             this.boton23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton23.FlatAppearance.BorderSize = 0;
             this.boton23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton23.Location = new System.Drawing.Point(363, 179);
+            this.boton23.Location = new System.Drawing.Point(411, 181);
             this.boton23.Name = "boton23";
             this.boton23.Size = new System.Drawing.Size(44, 44);
             this.boton23.TabIndex = 20;
@@ -364,7 +370,7 @@
             this.boton24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton24.FlatAppearance.BorderSize = 0;
             this.boton24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton24.Location = new System.Drawing.Point(413, 179);
+            this.boton24.Location = new System.Drawing.Point(461, 181);
             this.boton24.Name = "boton24";
             this.boton24.Size = new System.Drawing.Size(43, 44);
             this.boton24.TabIndex = 19;
@@ -377,7 +383,7 @@
             this.boton25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton25.FlatAppearance.BorderSize = 0;
             this.boton25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton25.Location = new System.Drawing.Point(463, 179);
+            this.boton25.Location = new System.Drawing.Point(511, 181);
             this.boton25.Name = "boton25";
             this.boton25.Size = new System.Drawing.Size(44, 44);
             this.boton25.TabIndex = 18;
@@ -390,7 +396,7 @@
             this.boton21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton21.FlatAppearance.BorderSize = 0;
             this.boton21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton21.Location = new System.Drawing.Point(263, 179);
+            this.boton21.Location = new System.Drawing.Point(311, 181);
             this.boton21.Name = "boton21";
             this.boton21.Size = new System.Drawing.Size(44, 44);
             this.boton21.TabIndex = 16;
@@ -403,7 +409,7 @@
             this.boton20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton20.FlatAppearance.BorderSize = 0;
             this.boton20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton20.Location = new System.Drawing.Point(213, 179);
+            this.boton20.Location = new System.Drawing.Point(261, 181);
             this.boton20.Name = "boton20";
             this.boton20.Size = new System.Drawing.Size(44, 44);
             this.boton20.TabIndex = 17;
@@ -416,7 +422,7 @@
             this.boton37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton37.FlatAppearance.BorderSize = 0;
             this.boton37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton37.Location = new System.Drawing.Point(563, 229);
+            this.boton37.Location = new System.Drawing.Point(611, 231);
             this.boton37.Name = "boton37";
             this.boton37.Size = new System.Drawing.Size(44, 44);
             this.boton37.TabIndex = 31;
@@ -429,7 +435,7 @@
             this.boton36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton36.FlatAppearance.BorderSize = 0;
             this.boton36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton36.Location = new System.Drawing.Point(513, 229);
+            this.boton36.Location = new System.Drawing.Point(561, 231);
             this.boton36.Name = "boton36";
             this.boton36.Size = new System.Drawing.Size(44, 44);
             this.boton36.TabIndex = 30;
@@ -442,7 +448,7 @@
             this.boton32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton32.FlatAppearance.BorderSize = 0;
             this.boton32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton32.Location = new System.Drawing.Point(313, 229);
+            this.boton32.Location = new System.Drawing.Point(361, 231);
             this.boton32.Name = "boton32";
             this.boton32.Size = new System.Drawing.Size(44, 44);
             this.boton32.TabIndex = 29;
@@ -455,7 +461,7 @@
             this.boton33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton33.FlatAppearance.BorderSize = 0;
             this.boton33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton33.Location = new System.Drawing.Point(363, 229);
+            this.boton33.Location = new System.Drawing.Point(411, 231);
             this.boton33.Name = "boton33";
             this.boton33.Size = new System.Drawing.Size(44, 44);
             this.boton33.TabIndex = 28;
@@ -468,7 +474,7 @@
             this.boton34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton34.FlatAppearance.BorderSize = 0;
             this.boton34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton34.Location = new System.Drawing.Point(413, 229);
+            this.boton34.Location = new System.Drawing.Point(461, 231);
             this.boton34.Name = "boton34";
             this.boton34.Size = new System.Drawing.Size(43, 44);
             this.boton34.TabIndex = 27;
@@ -481,7 +487,7 @@
             this.boton35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton35.FlatAppearance.BorderSize = 0;
             this.boton35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton35.Location = new System.Drawing.Point(463, 229);
+            this.boton35.Location = new System.Drawing.Point(511, 231);
             this.boton35.Name = "boton35";
             this.boton35.Size = new System.Drawing.Size(44, 44);
             this.boton35.TabIndex = 26;
@@ -494,7 +500,7 @@
             this.boton31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton31.FlatAppearance.BorderSize = 0;
             this.boton31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton31.Location = new System.Drawing.Point(263, 229);
+            this.boton31.Location = new System.Drawing.Point(311, 231);
             this.boton31.Name = "boton31";
             this.boton31.Size = new System.Drawing.Size(44, 44);
             this.boton31.TabIndex = 24;
@@ -507,7 +513,7 @@
             this.boton30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton30.FlatAppearance.BorderSize = 0;
             this.boton30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton30.Location = new System.Drawing.Point(213, 229);
+            this.boton30.Location = new System.Drawing.Point(261, 231);
             this.boton30.Name = "boton30";
             this.boton30.Size = new System.Drawing.Size(44, 44);
             this.boton30.TabIndex = 25;
@@ -520,7 +526,7 @@
             this.boton47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton47.FlatAppearance.BorderSize = 0;
             this.boton47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton47.Location = new System.Drawing.Point(563, 279);
+            this.boton47.Location = new System.Drawing.Point(611, 281);
             this.boton47.Name = "boton47";
             this.boton47.Size = new System.Drawing.Size(44, 44);
             this.boton47.TabIndex = 39;
@@ -533,7 +539,7 @@
             this.boton46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton46.FlatAppearance.BorderSize = 0;
             this.boton46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton46.Location = new System.Drawing.Point(513, 279);
+            this.boton46.Location = new System.Drawing.Point(561, 281);
             this.boton46.Name = "boton46";
             this.boton46.Size = new System.Drawing.Size(44, 44);
             this.boton46.TabIndex = 38;
@@ -546,7 +552,7 @@
             this.boton42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton42.FlatAppearance.BorderSize = 0;
             this.boton42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton42.Location = new System.Drawing.Point(313, 279);
+            this.boton42.Location = new System.Drawing.Point(361, 281);
             this.boton42.Name = "boton42";
             this.boton42.Size = new System.Drawing.Size(44, 44);
             this.boton42.TabIndex = 37;
@@ -559,7 +565,7 @@
             this.boton43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton43.FlatAppearance.BorderSize = 0;
             this.boton43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton43.Location = new System.Drawing.Point(363, 279);
+            this.boton43.Location = new System.Drawing.Point(411, 281);
             this.boton43.Name = "boton43";
             this.boton43.Size = new System.Drawing.Size(44, 44);
             this.boton43.TabIndex = 36;
@@ -572,7 +578,7 @@
             this.boton44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton44.FlatAppearance.BorderSize = 0;
             this.boton44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton44.Location = new System.Drawing.Point(413, 279);
+            this.boton44.Location = new System.Drawing.Point(461, 281);
             this.boton44.Name = "boton44";
             this.boton44.Size = new System.Drawing.Size(43, 44);
             this.boton44.TabIndex = 35;
@@ -585,7 +591,7 @@
             this.boton45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton45.FlatAppearance.BorderSize = 0;
             this.boton45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton45.Location = new System.Drawing.Point(463, 279);
+            this.boton45.Location = new System.Drawing.Point(511, 281);
             this.boton45.Name = "boton45";
             this.boton45.Size = new System.Drawing.Size(44, 44);
             this.boton45.TabIndex = 34;
@@ -598,7 +604,7 @@
             this.boton41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton41.FlatAppearance.BorderSize = 0;
             this.boton41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton41.Location = new System.Drawing.Point(263, 279);
+            this.boton41.Location = new System.Drawing.Point(311, 281);
             this.boton41.Name = "boton41";
             this.boton41.Size = new System.Drawing.Size(44, 44);
             this.boton41.TabIndex = 32;
@@ -611,7 +617,7 @@
             this.boton40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton40.FlatAppearance.BorderSize = 0;
             this.boton40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton40.Location = new System.Drawing.Point(213, 279);
+            this.boton40.Location = new System.Drawing.Point(261, 281);
             this.boton40.Name = "boton40";
             this.boton40.Size = new System.Drawing.Size(44, 44);
             this.boton40.TabIndex = 33;
@@ -624,7 +630,7 @@
             this.boton57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton57.FlatAppearance.BorderSize = 0;
             this.boton57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton57.Location = new System.Drawing.Point(563, 329);
+            this.boton57.Location = new System.Drawing.Point(611, 331);
             this.boton57.Name = "boton57";
             this.boton57.Size = new System.Drawing.Size(44, 44);
             this.boton57.TabIndex = 47;
@@ -637,7 +643,7 @@
             this.boton56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton56.FlatAppearance.BorderSize = 0;
             this.boton56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton56.Location = new System.Drawing.Point(513, 329);
+            this.boton56.Location = new System.Drawing.Point(561, 331);
             this.boton56.Name = "boton56";
             this.boton56.Size = new System.Drawing.Size(44, 44);
             this.boton56.TabIndex = 46;
@@ -650,7 +656,7 @@
             this.boton52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton52.FlatAppearance.BorderSize = 0;
             this.boton52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton52.Location = new System.Drawing.Point(313, 329);
+            this.boton52.Location = new System.Drawing.Point(361, 331);
             this.boton52.Name = "boton52";
             this.boton52.Size = new System.Drawing.Size(44, 44);
             this.boton52.TabIndex = 45;
@@ -663,7 +669,7 @@
             this.boton53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton53.FlatAppearance.BorderSize = 0;
             this.boton53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton53.Location = new System.Drawing.Point(363, 329);
+            this.boton53.Location = new System.Drawing.Point(411, 331);
             this.boton53.Name = "boton53";
             this.boton53.Size = new System.Drawing.Size(44, 44);
             this.boton53.TabIndex = 44;
@@ -676,7 +682,7 @@
             this.boton54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton54.FlatAppearance.BorderSize = 0;
             this.boton54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton54.Location = new System.Drawing.Point(413, 329);
+            this.boton54.Location = new System.Drawing.Point(461, 331);
             this.boton54.Name = "boton54";
             this.boton54.Size = new System.Drawing.Size(43, 44);
             this.boton54.TabIndex = 43;
@@ -689,7 +695,7 @@
             this.boton55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton55.FlatAppearance.BorderSize = 0;
             this.boton55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton55.Location = new System.Drawing.Point(463, 329);
+            this.boton55.Location = new System.Drawing.Point(511, 331);
             this.boton55.Name = "boton55";
             this.boton55.Size = new System.Drawing.Size(44, 44);
             this.boton55.TabIndex = 42;
@@ -702,7 +708,7 @@
             this.boton51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton51.FlatAppearance.BorderSize = 0;
             this.boton51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton51.Location = new System.Drawing.Point(263, 329);
+            this.boton51.Location = new System.Drawing.Point(311, 331);
             this.boton51.Name = "boton51";
             this.boton51.Size = new System.Drawing.Size(44, 44);
             this.boton51.TabIndex = 40;
@@ -715,7 +721,7 @@
             this.boton50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton50.FlatAppearance.BorderSize = 0;
             this.boton50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton50.Location = new System.Drawing.Point(213, 329);
+            this.boton50.Location = new System.Drawing.Point(261, 331);
             this.boton50.Name = "boton50";
             this.boton50.Size = new System.Drawing.Size(44, 44);
             this.boton50.TabIndex = 41;
@@ -728,7 +734,7 @@
             this.boton67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton67.FlatAppearance.BorderSize = 0;
             this.boton67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton67.Location = new System.Drawing.Point(563, 379);
+            this.boton67.Location = new System.Drawing.Point(611, 381);
             this.boton67.Name = "boton67";
             this.boton67.Size = new System.Drawing.Size(44, 44);
             this.boton67.TabIndex = 55;
@@ -741,7 +747,7 @@
             this.boton66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton66.FlatAppearance.BorderSize = 0;
             this.boton66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton66.Location = new System.Drawing.Point(513, 379);
+            this.boton66.Location = new System.Drawing.Point(561, 381);
             this.boton66.Name = "boton66";
             this.boton66.Size = new System.Drawing.Size(44, 44);
             this.boton66.TabIndex = 54;
@@ -754,7 +760,7 @@
             this.boton62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton62.FlatAppearance.BorderSize = 0;
             this.boton62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton62.Location = new System.Drawing.Point(313, 379);
+            this.boton62.Location = new System.Drawing.Point(361, 381);
             this.boton62.Name = "boton62";
             this.boton62.Size = new System.Drawing.Size(44, 44);
             this.boton62.TabIndex = 53;
@@ -767,7 +773,7 @@
             this.boton63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton63.FlatAppearance.BorderSize = 0;
             this.boton63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton63.Location = new System.Drawing.Point(363, 379);
+            this.boton63.Location = new System.Drawing.Point(411, 381);
             this.boton63.Name = "boton63";
             this.boton63.Size = new System.Drawing.Size(44, 44);
             this.boton63.TabIndex = 52;
@@ -780,7 +786,7 @@
             this.boton64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton64.FlatAppearance.BorderSize = 0;
             this.boton64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton64.Location = new System.Drawing.Point(413, 379);
+            this.boton64.Location = new System.Drawing.Point(461, 381);
             this.boton64.Name = "boton64";
             this.boton64.Size = new System.Drawing.Size(43, 44);
             this.boton64.TabIndex = 51;
@@ -793,7 +799,7 @@
             this.boton65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton65.FlatAppearance.BorderSize = 0;
             this.boton65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton65.Location = new System.Drawing.Point(463, 379);
+            this.boton65.Location = new System.Drawing.Point(511, 381);
             this.boton65.Name = "boton65";
             this.boton65.Size = new System.Drawing.Size(44, 44);
             this.boton65.TabIndex = 50;
@@ -806,7 +812,7 @@
             this.boton61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton61.FlatAppearance.BorderSize = 0;
             this.boton61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton61.Location = new System.Drawing.Point(263, 379);
+            this.boton61.Location = new System.Drawing.Point(311, 381);
             this.boton61.Name = "boton61";
             this.boton61.Size = new System.Drawing.Size(44, 44);
             this.boton61.TabIndex = 48;
@@ -819,7 +825,7 @@
             this.boton60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton60.FlatAppearance.BorderSize = 0;
             this.boton60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton60.Location = new System.Drawing.Point(213, 379);
+            this.boton60.Location = new System.Drawing.Point(261, 381);
             this.boton60.Name = "boton60";
             this.boton60.Size = new System.Drawing.Size(44, 44);
             this.boton60.TabIndex = 49;
@@ -835,7 +841,7 @@
             this.boton77.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton77.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.boton77.Location = new System.Drawing.Point(563, 429);
+            this.boton77.Location = new System.Drawing.Point(611, 431);
             this.boton77.Name = "boton77";
             this.boton77.Size = new System.Drawing.Size(44, 44);
             this.boton77.TabIndex = 63;
@@ -848,7 +854,7 @@
             this.boton76.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton76.FlatAppearance.BorderSize = 0;
             this.boton76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton76.Location = new System.Drawing.Point(513, 429);
+            this.boton76.Location = new System.Drawing.Point(561, 431);
             this.boton76.Name = "boton76";
             this.boton76.Size = new System.Drawing.Size(44, 44);
             this.boton76.TabIndex = 62;
@@ -861,7 +867,7 @@
             this.boton72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton72.FlatAppearance.BorderSize = 0;
             this.boton72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton72.Location = new System.Drawing.Point(313, 429);
+            this.boton72.Location = new System.Drawing.Point(361, 431);
             this.boton72.Name = "boton72";
             this.boton72.Size = new System.Drawing.Size(44, 44);
             this.boton72.TabIndex = 61;
@@ -874,7 +880,7 @@
             this.boton73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton73.FlatAppearance.BorderSize = 0;
             this.boton73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton73.Location = new System.Drawing.Point(363, 429);
+            this.boton73.Location = new System.Drawing.Point(411, 431);
             this.boton73.Name = "boton73";
             this.boton73.Size = new System.Drawing.Size(44, 44);
             this.boton73.TabIndex = 60;
@@ -887,7 +893,7 @@
             this.boton74.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton74.FlatAppearance.BorderSize = 0;
             this.boton74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton74.Location = new System.Drawing.Point(413, 429);
+            this.boton74.Location = new System.Drawing.Point(461, 431);
             this.boton74.Name = "boton74";
             this.boton74.Size = new System.Drawing.Size(44, 44);
             this.boton74.TabIndex = 59;
@@ -900,7 +906,7 @@
             this.boton75.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton75.FlatAppearance.BorderSize = 0;
             this.boton75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton75.Location = new System.Drawing.Point(463, 429);
+            this.boton75.Location = new System.Drawing.Point(511, 431);
             this.boton75.Name = "boton75";
             this.boton75.Size = new System.Drawing.Size(44, 44);
             this.boton75.TabIndex = 58;
@@ -913,7 +919,7 @@
             this.boton71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton71.FlatAppearance.BorderSize = 0;
             this.boton71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton71.Location = new System.Drawing.Point(263, 429);
+            this.boton71.Location = new System.Drawing.Point(311, 431);
             this.boton71.Name = "boton71";
             this.boton71.Size = new System.Drawing.Size(44, 44);
             this.boton71.TabIndex = 56;
@@ -926,7 +932,7 @@
             this.boton70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.boton70.FlatAppearance.BorderSize = 0;
             this.boton70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton70.Location = new System.Drawing.Point(213, 429);
+            this.boton70.Location = new System.Drawing.Point(261, 431);
             this.boton70.Name = "boton70";
             this.boton70.Size = new System.Drawing.Size(44, 44);
             this.boton70.TabIndex = 57;
@@ -937,7 +943,7 @@
             // 
             this.botonValidar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonValidar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonValidar.Location = new System.Drawing.Point(632, 435);
+            this.botonValidar.Location = new System.Drawing.Point(727, 257);
             this.botonValidar.Name = "botonValidar";
             this.botonValidar.Size = new System.Drawing.Size(123, 37);
             this.botonValidar.TabIndex = 64;
@@ -945,13 +951,85 @@
             this.botonValidar.UseVisualStyleBackColor = true;
             this.botonValidar.Click += new System.EventHandler(this.botonValidar_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(742, 122);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(93, 29);
+            this.label1.TabIndex = 65;
+            this.label1.Text = "Puntos:";
+            // 
+            // puntos
+            // 
+            this.puntos.AutoSize = true;
+            this.puntos.BackColor = System.Drawing.Color.Transparent;
+            this.puntos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.puntos.Location = new System.Drawing.Point(779, 171);
+            this.puntos.Name = "puntos";
+            this.puntos.Size = new System.Drawing.Size(19, 20);
+            this.puntos.TabIndex = 66;
+            this.puntos.Text = "0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(30, 82);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(171, 24);
+            this.label2.TabIndex = 67;
+            this.label2.Text = "Mejores Puntajes";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(13, 122);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 13);
+            this.label3.TabIndex = 68;
+            this.label3.Text = "Nombre";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(100, 122);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.TabIndex = 69;
+            this.label4.Text = "Puntaje";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(187, 122);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 13);
+            this.label5.TabIndex = 70;
+            this.label5.Text = "fecha";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::KittyCrush.Properties.Resources.fondo3_0;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(820, 489);
+            this.ClientSize = new System.Drawing.Size(924, 537);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.puntos);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.botonValidar);
             this.Controls.Add(this.boton77);
             this.Controls.Add(this.boton76);
@@ -1021,6 +1099,7 @@
             this.Name = "Form1";
             this.Text = "KittyCrush";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1091,6 +1170,12 @@
         private System.Windows.Forms.Button boton71;
         private System.Windows.Forms.Button boton70;
         private System.Windows.Forms.Button botonValidar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label puntos;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
