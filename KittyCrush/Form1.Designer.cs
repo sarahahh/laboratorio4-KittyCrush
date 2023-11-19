@@ -100,6 +100,21 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.nombre0 = new System.Windows.Forms.Label();
+            this.fecha0 = new System.Windows.Forms.Label();
+            this.puntaje0 = new System.Windows.Forms.Label();
+            this.puntaje1 = new System.Windows.Forms.Label();
+            this.fecha1 = new System.Windows.Forms.Label();
+            this.nombre1 = new System.Windows.Forms.Label();
+            this.puntaje2 = new System.Windows.Forms.Label();
+            this.fecha2 = new System.Windows.Forms.Label();
+            this.nombre2 = new System.Windows.Forms.Label();
+            this.puntaje3 = new System.Windows.Forms.Label();
+            this.fecha3 = new System.Windows.Forms.Label();
+            this.nombre3 = new System.Windows.Forms.Label();
+            this.puntaje4 = new System.Windows.Forms.Label();
+            this.fecha4 = new System.Windows.Forms.Label();
+            this.nombre4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // boton00
@@ -978,7 +993,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(30, 82);
+            this.label2.Location = new System.Drawing.Point(29, 122);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(171, 24);
             this.label2.TabIndex = 67;
@@ -989,7 +1004,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 122);
+            this.label3.Location = new System.Drawing.Point(7, 181);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 68;
@@ -1000,7 +1015,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(100, 122);
+            this.label4.Location = new System.Drawing.Point(182, 181);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(50, 13);
             this.label4.TabIndex = 69;
@@ -1011,11 +1026,161 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(187, 122);
+            this.label5.Location = new System.Drawing.Point(80, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 13);
             this.label5.TabIndex = 70;
             this.label5.Text = "fecha";
+            // 
+            // nombre0
+            // 
+            this.nombre0.AutoSize = true;
+            this.nombre0.BackColor = System.Drawing.Color.Transparent;
+            this.nombre0.Location = new System.Drawing.Point(7, 230);
+            this.nombre0.Name = "nombre0";
+            this.nombre0.Size = new System.Drawing.Size(10, 13);
+            this.nombre0.TabIndex = 71;
+            this.nombre0.Text = "-";
+            // 
+            // fecha0
+            // 
+            this.fecha0.AutoSize = true;
+            this.fecha0.BackColor = System.Drawing.Color.Transparent;
+            this.fecha0.Location = new System.Drawing.Point(80, 230);
+            this.fecha0.Name = "fecha0";
+            this.fecha0.Size = new System.Drawing.Size(10, 13);
+            this.fecha0.TabIndex = 72;
+            this.fecha0.Text = "-";
+            // 
+            // puntaje0
+            // 
+            this.puntaje0.AutoSize = true;
+            this.puntaje0.BackColor = System.Drawing.Color.Transparent;
+            this.puntaje0.Location = new System.Drawing.Point(217, 230);
+            this.puntaje0.Name = "puntaje0";
+            this.puntaje0.Size = new System.Drawing.Size(10, 13);
+            this.puntaje0.TabIndex = 73;
+            this.puntaje0.Text = "-";
+            // 
+            // puntaje1
+            // 
+            this.puntaje1.AutoSize = true;
+            this.puntaje1.BackColor = System.Drawing.Color.Transparent;
+            this.puntaje1.Location = new System.Drawing.Point(217, 260);
+            this.puntaje1.Name = "puntaje1";
+            this.puntaje1.Size = new System.Drawing.Size(10, 13);
+            this.puntaje1.TabIndex = 76;
+            this.puntaje1.Text = "-";
+            // 
+            // fecha1
+            // 
+            this.fecha1.AutoSize = true;
+            this.fecha1.BackColor = System.Drawing.Color.Transparent;
+            this.fecha1.Location = new System.Drawing.Point(80, 260);
+            this.fecha1.Name = "fecha1";
+            this.fecha1.Size = new System.Drawing.Size(10, 13);
+            this.fecha1.TabIndex = 75;
+            this.fecha1.Text = "-";
+            // 
+            // nombre1
+            // 
+            this.nombre1.AutoSize = true;
+            this.nombre1.BackColor = System.Drawing.Color.Transparent;
+            this.nombre1.Location = new System.Drawing.Point(7, 260);
+            this.nombre1.Name = "nombre1";
+            this.nombre1.Size = new System.Drawing.Size(10, 13);
+            this.nombre1.TabIndex = 74;
+            this.nombre1.Text = "-";
+            // 
+            // puntaje2
+            // 
+            this.puntaje2.AutoSize = true;
+            this.puntaje2.BackColor = System.Drawing.Color.Transparent;
+            this.puntaje2.Location = new System.Drawing.Point(217, 290);
+            this.puntaje2.Name = "puntaje2";
+            this.puntaje2.Size = new System.Drawing.Size(10, 13);
+            this.puntaje2.TabIndex = 79;
+            this.puntaje2.Text = "-";
+            // 
+            // fecha2
+            // 
+            this.fecha2.AutoSize = true;
+            this.fecha2.BackColor = System.Drawing.Color.Transparent;
+            this.fecha2.Location = new System.Drawing.Point(80, 290);
+            this.fecha2.Name = "fecha2";
+            this.fecha2.Size = new System.Drawing.Size(10, 13);
+            this.fecha2.TabIndex = 78;
+            this.fecha2.Text = "-";
+            // 
+            // nombre2
+            // 
+            this.nombre2.AutoSize = true;
+            this.nombre2.BackColor = System.Drawing.Color.Transparent;
+            this.nombre2.Location = new System.Drawing.Point(7, 290);
+            this.nombre2.Name = "nombre2";
+            this.nombre2.Size = new System.Drawing.Size(10, 13);
+            this.nombre2.TabIndex = 77;
+            this.nombre2.Text = "-";
+            // 
+            // puntaje3
+            // 
+            this.puntaje3.AutoSize = true;
+            this.puntaje3.BackColor = System.Drawing.Color.Transparent;
+            this.puntaje3.Location = new System.Drawing.Point(217, 320);
+            this.puntaje3.Name = "puntaje3";
+            this.puntaje3.Size = new System.Drawing.Size(10, 13);
+            this.puntaje3.TabIndex = 82;
+            this.puntaje3.Text = "-";
+            // 
+            // fecha3
+            // 
+            this.fecha3.AutoSize = true;
+            this.fecha3.BackColor = System.Drawing.Color.Transparent;
+            this.fecha3.Location = new System.Drawing.Point(80, 320);
+            this.fecha3.Name = "fecha3";
+            this.fecha3.Size = new System.Drawing.Size(10, 13);
+            this.fecha3.TabIndex = 81;
+            this.fecha3.Text = "-";
+            // 
+            // nombre3
+            // 
+            this.nombre3.AutoSize = true;
+            this.nombre3.BackColor = System.Drawing.Color.Transparent;
+            this.nombre3.Location = new System.Drawing.Point(7, 320);
+            this.nombre3.Name = "nombre3";
+            this.nombre3.Size = new System.Drawing.Size(10, 13);
+            this.nombre3.TabIndex = 80;
+            this.nombre3.Text = "-";
+            // 
+            // puntaje4
+            // 
+            this.puntaje4.AutoSize = true;
+            this.puntaje4.BackColor = System.Drawing.Color.Transparent;
+            this.puntaje4.Location = new System.Drawing.Point(217, 350);
+            this.puntaje4.Name = "puntaje4";
+            this.puntaje4.Size = new System.Drawing.Size(10, 13);
+            this.puntaje4.TabIndex = 85;
+            this.puntaje4.Text = "-";
+            // 
+            // fecha4
+            // 
+            this.fecha4.AutoSize = true;
+            this.fecha4.BackColor = System.Drawing.Color.Transparent;
+            this.fecha4.Location = new System.Drawing.Point(80, 350);
+            this.fecha4.Name = "fecha4";
+            this.fecha4.Size = new System.Drawing.Size(10, 13);
+            this.fecha4.TabIndex = 84;
+            this.fecha4.Text = "-";
+            // 
+            // nombre4
+            // 
+            this.nombre4.AutoSize = true;
+            this.nombre4.BackColor = System.Drawing.Color.Transparent;
+            this.nombre4.Location = new System.Drawing.Point(7, 350);
+            this.nombre4.Name = "nombre4";
+            this.nombre4.Size = new System.Drawing.Size(10, 13);
+            this.nombre4.TabIndex = 83;
+            this.nombre4.Text = "-";
             // 
             // Form1
             // 
@@ -1024,6 +1189,21 @@
             this.BackgroundImage = global::KittyCrush.Properties.Resources.fondo3_0;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(924, 537);
+            this.Controls.Add(this.puntaje4);
+            this.Controls.Add(this.fecha4);
+            this.Controls.Add(this.nombre4);
+            this.Controls.Add(this.puntaje3);
+            this.Controls.Add(this.fecha3);
+            this.Controls.Add(this.nombre3);
+            this.Controls.Add(this.puntaje2);
+            this.Controls.Add(this.fecha2);
+            this.Controls.Add(this.nombre2);
+            this.Controls.Add(this.puntaje1);
+            this.Controls.Add(this.fecha1);
+            this.Controls.Add(this.nombre1);
+            this.Controls.Add(this.puntaje0);
+            this.Controls.Add(this.fecha0);
+            this.Controls.Add(this.nombre0);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -1176,6 +1356,21 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label nombre0;
+        private System.Windows.Forms.Label fecha0;
+        private System.Windows.Forms.Label puntaje0;
+        private System.Windows.Forms.Label puntaje1;
+        private System.Windows.Forms.Label fecha1;
+        private System.Windows.Forms.Label nombre1;
+        private System.Windows.Forms.Label puntaje2;
+        private System.Windows.Forms.Label fecha2;
+        private System.Windows.Forms.Label nombre2;
+        private System.Windows.Forms.Label puntaje3;
+        private System.Windows.Forms.Label fecha3;
+        private System.Windows.Forms.Label nombre3;
+        private System.Windows.Forms.Label puntaje4;
+        private System.Windows.Forms.Label fecha4;
+        private System.Windows.Forms.Label nombre4;
     }
 }
 

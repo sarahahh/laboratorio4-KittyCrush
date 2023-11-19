@@ -18,3 +18,4 @@ C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyC
 C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\bin\Debug\KittyCrush.exe.config
 C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\bin\Debug\KittyCrush.exe
 C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\bin\Debug\KittyCrush.pdb
+C:\Users\Usuario\Documents\manuel\programacion\Laboratorio 2\laboratorio4-KittyCrush\KittyCrush\obj\Debug\KittyCrush.Form2.resources

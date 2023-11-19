@@ -16,11 +16,17 @@ namespace KittyCrush
         Tablero tablero;
         public Form1()
         {
+            //Creacion de tablero
             InitializeComponent();
             tablero = new Tablero(8, 8, 6, this);
             ponerImagen();
         }
 
+        /// <summary>
+        /// metodo que devuelve una imagen dependiendo del numero
+        /// </summary>
+        /// <param name="recurso"></param>
+        /// <returns></returns>
         private Image seleccionarImagen(int recurso)
         {
             switch (recurso)
@@ -40,16 +46,69 @@ namespace KittyCrush
             }
         }
 
+        //Boton validar
         private void botonValidar_Click(object sender, EventArgs e)
         {
             tablero.comprobarVertical();
         }
 
+        /// <summary>
+        /// Metodo que muestra los puntos en pantalla
+        /// </summary>
         public void mostrarPuntos()
         {
             puntos.Text = tablero.puntos.ToString();
         }
 
+        /// <summary>
+        /// Metodo que muestra los mejores 5 jugadores en pantalla
+        /// </summary>
+        public void mostrarJugadores()
+        {
+            if (tablero.vectorJugadores[0] != null)
+            {
+                nombre0.Text = tablero.vectorJugadores[0].nombreJugador;
+                fecha0.Text = tablero.vectorJugadores[0].fecha.ToString();
+                puntaje0.Text = tablero.vectorJugadores[0].puntaje.ToString();
+            }
+            if (tablero.vectorJugadores[1] != null)
+            {
+                nombre1.Text = tablero.vectorJugadores[1].nombreJugador;
+                fecha1.Text = tablero.vectorJugadores[1].fecha.ToString();
+                puntaje1.Text = tablero.vectorJugadores[1].puntaje.ToString();
+            }
+            if (tablero.vectorJugadores[2] != null)
+            {
+                nombre2.Text = tablero.vectorJugadores[2].nombreJugador;
+                fecha2.Text = tablero.vectorJugadores[2].fecha.ToString();
+                puntaje2.Text = tablero.vectorJugadores[2].puntaje.ToString();
+            }
+            if (tablero.vectorJugadores[3] != null)
+            {
+                nombre3.Text = tablero.vectorJugadores[3].nombreJugador;
+                fecha3.Text = tablero.vectorJugadores[3].fecha.ToString();
+                puntaje3.Text = tablero.vectorJugadores[3].puntaje.ToString();
+            }
+            if (tablero.vectorJugadores[4] != null)
+            {
+                nombre4.Text = tablero.vectorJugadores[4].nombreJugador;
+                fecha4.Text = tablero.vectorJugadores[4].fecha.ToString();
+                puntaje4.Text = tablero.vectorJugadores[4].puntaje.ToString();
+            }
+        }
+
+        /// <summary>
+        /// Metodo para llamar el Form donde se ingresa el nombre
+        /// </summary>
+        public void llamarForm()
+        {
+            Form2 form2 = new Form2(tablero.puntos, tablero);
+            form2.Show();
+        }
+
+        /// <summary>
+        /// Metodo que le pone las imagenes a los botones
+        /// </summary>
         public void ponerImagen()
         {
             boton00.BackgroundImage = seleccionarImagen(tablero.valores[0, 0]);
